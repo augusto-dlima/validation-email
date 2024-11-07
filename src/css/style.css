@@ -1,0 +1,51 @@
+.align{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    background-color: #242742;
+
+}
+
+
+.container .forms {
+
+    width: 50%;
+    height: 70vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 1%;
+
+}
+
+.container .forms .informacoes-forms,
+.forms-image {
+
+
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.container .forms .informacoes-forms{
+
+    padding: 5%;
+}
+
+
+.container .forms .forms-image img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+

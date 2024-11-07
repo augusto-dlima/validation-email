@@ -1,0 +1,83 @@
+.title {
+
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.text-default {
+
+    width: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    padding-top: 5%;
+
+}
+
+
+.icon-and-text::before {
+
+    content: url('../images/icon-list.svg');
+    padding-right: 10px;
+
+}
+
+.text-label {
+
+    width: 100%;
+
+}
+
+.email-validation {
+
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.email-validation .error-message{
+
+    color:#FF6257;
+}
+
+.disable{
+
+    transition: 5ms ease-in-out;
+    display: none;
+}
+
+
+.input-email {
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.input-email.error-message{
+
+    color: #FF6257;
+    border: 1px solid #ff6257;
+    opacity: 0.5;
+}
+
+.button-submit,.button-home,.button-reset {
+
+    width: 100%;
+    margin-top: 5%;
+    padding: 3%;
+    background-color: #36384E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-submit:hover,.button-home:hover,.button-reset:hover{
+
+    transition: 5ms ease-in-out;
+    background-color: #FF6257;
+    box-shadow: 1px 1px 10px 1px #FF6257;
+}
