@@ -2,7 +2,7 @@
 
     width: 30%;
     height: 70vh;
-    background-color: #ffffff;
+    background-color: var(--background-default-mobile);
     border-radius: 25px;
     padding: 3%;
 

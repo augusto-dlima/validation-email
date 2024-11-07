@@ -51,7 +51,7 @@
 
         width: 100%;
         height: 100%;
-        background-color: #ffffff;
+        background-color: var(--background-default-mobile);
 
     }
 
@@ -61,7 +61,7 @@
         height: 100%;
         display: flex;
         flex-direction: column-reverse;
-        background-color: #ffffff;
+        background-color: var((--background-default-mobile));
 
     }
 
@@ -101,7 +101,6 @@
 
         width: 100%;
         height: 40px;
-        border: 1px solid #e1e1e1;
         border-radius: 5px;
     }
     

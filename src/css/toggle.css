@@ -1,0 +1,32 @@
+.toggler-btn {
+
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 10px;
+    background-color: var(--background-default);
+
+}
+
+.icon{
+
+    font-size: 30px;
+    color: var(--color-btn-hover);
+    cursor: pointer;
+    
+}
+
+@media (max-width:600px){
+
+.toggler-btn{
+
+    background-color: var(--background-default-mobile);
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+
+}
+
+}
