@@ -11,6 +11,7 @@
     --color-error:var(--color-btn-hover );
     --title-color: #242742;
     --text-default: #000000;
+    --text-default-btn-hover:#ffffff;
     
     }
     
@@ -26,5 +27,6 @@
         --color-error:var(--color-btn-hover );
         --title-color: #ffffff;
         --text-default: #FFFFFF;
+        --text-default-btn-hover:#ffffff;
     
     }

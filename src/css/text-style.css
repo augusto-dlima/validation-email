@@ -82,5 +82,5 @@
     transition: 5ms ease-in-out;
     background-color: var(--color-btn-hover);
     box-shadow: 1px 1px 10px 1px var(--color-btn-hover);
-    /* color: var(--text-default); */
+    color: var(--text-default-btn-hover);
 }
