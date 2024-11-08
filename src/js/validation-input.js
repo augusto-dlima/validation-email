@@ -2,7 +2,7 @@ import {textInputEmail } from "./variables.js"
 import { errorMessage,successMessage } from "./screen.js"
 
 function validationInputEmail(){
-    textInputEmail.email.value == '' || textInputEmail.email.value == ' '? errorMessage(true): validationValue(textInputEmail.email.value) ? successMessage() : errorMessage(true)
+    textInputEmail.email.value == '' || textInputEmail.email.value == ' '? errorMessage(): validationValue(textInputEmail.email.value) ? successMessage() : errorMessage()
 
 }
 

@@ -1,20 +1,13 @@
-import { validationEmail, textInputEmail, container} from "./variables.js"
+import { textInputEmail, container} from "./variables.js"
 import { validationInputEmail } from "./validation-input.js"
 
-function errorMessage(statusMessage) {
+function errorMessage() {
 
-    if (statusMessage === true) {
+ const errorInput = document.querySelector('.input-email')
+ const validationEmail = document.querySelector('.error-message');
 
-        validationEmail.classList.remove('disable')
-        textInputEmail.email.classList.add('error-message')
-
-    }
-
-    else {
-
-        validationEmail.classList.add('disable')
-        textInputEmail.email.classList.remove('error-message')
-    }
+errorInput.classList.add('error-message')
+validationEmail.classList.remove('disable')
 
 
 }
@@ -87,6 +80,7 @@ function successMessage() {
 
         `
 
+        
         const buttonReset = document.querySelector('.button-reset')
 
         buttonReset.addEventListener('click', ()=>{ validationInputEmail() })
@@ -95,66 +89,10 @@ function successMessage() {
         
     })
 
-
-
-
-
     
 
 }
 
-// buttonSubmit.addEventListener('click',()=>{
-
-//     container.innerHTML = `
-    
-//         <section class="forms align">
-
-//             <section class="informacoes-forms align">
-
-//                 <h1 class="title">Stay update!</h1>
-
-//                 <p class="text-default"> 60,000+ product managers receiving monthly updates on:</p>
-
-//                 <p class="icon-and-text text-default">Product discovery and building what matters</p>
-//                 <p class="icon-and-text text-default">Measuring to ensure updates are a success</p>
-//                 <p class="icon-and-text text-default">And much more!</p>
-
-//                 <form>
-
-//                 <div class="email-validation align">
-
-//                     <label for="email" class="text-label text-default"><strong>Email address</strong></label>
-//                     <p class="text-default error-message disable"><strong>Valid email required</strong></p>
-
-//                 </div>
-
-//                 <input type="email" name="email" id="email" class="input-email" placeholder="email@company.com">
-//                 <button type="button" class="button-submit">Subscribe to monthly newsletter</button>
-
-//             </form>
-
-//             </section>
-
-//             <section class="forms-image align">
-
-//                 <img src="./src/images/illustration-sign-up-desktop.svg" alt="">
-
-
-//             </section>
-
-
-
-
-//         </section>
-
-    
-    
-//     `
-
-
-
-
-// })
 
 
 export { errorMessage, successMessage }
